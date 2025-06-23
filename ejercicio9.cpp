@@ -18,7 +18,7 @@ int main() {
     }
     v[0] = ultimo;
 
-    cout << "Rotando el vector a la derecha:";
+    cout << "Rotacion del vector hacia la derecha:";
     for (int i = 0; i < n; i=i+1) {
         cout << v[i] << " ";
     }
