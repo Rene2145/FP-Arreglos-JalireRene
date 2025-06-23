@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	cout << "NUMERO CAPICUA"<<endl<<endl;
+	cout << "NUMERO CAPICUA MEDIANTE UN VECTOR"<<endl<<endl;
     int n[10]; 
     int b,a;
     cout << "Introduzca un numero de 10 cifras, por favor:"<<endl;
@@ -13,7 +13,6 @@ int main() {
         n[i] = b % 10; 
         b = b/10;           
     }
-
 
     bool esCapicua = true;
     for(int i = 0; i < 5; i=i+1) {
